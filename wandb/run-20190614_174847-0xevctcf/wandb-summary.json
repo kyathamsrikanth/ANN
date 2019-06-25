@@ -1,0 +1,115 @@
+{
+    "graph": {
+        "_type": "graph",
+        "format": "keras",
+        "nodes": [
+            {
+                "name": "flatten_21_input",
+                "id": "flatten_21_input",
+                "class_name": "InputLayer",
+                "output_shape": [
+                    null,
+                    28,
+                    28
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "flatten_21",
+                "id": "flatten_21",
+                "class_name": "Flatten",
+                "output_shape": [
+                    null,
+                    784
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "dense_41",
+                "id": "dense_41",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    65
+                ],
+                "num_parameters": 51025
+            },
+            {
+                "name": "dense_42",
+                "id": "dense_42",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    10
+                ],
+                "num_parameters": 660
+            }
+        ],
+        "edges": [
+            [
+                "flatten_21_input",
+                "flatten_21"
+            ],
+            [
+                "flatten_21",
+                "dense_41"
+            ],
+            [
+                "dense_41",
+                "dense_42"
+            ]
+        ]
+    },
+    "_timestamp": 1560534581.4251916,
+    "loss": 5.758906054560343,
+    "val_acc": 0.649,
+    "epoch": 9,
+    "_runtime": 53.613168478012085,
+    "val_loss": 5.645035445404052,
+    "acc": 0.6418833333333334,
+    "_step": 9,
+    "examples": {
+        "width": 28,
+        "height": 28,
+        "count": 36,
+        "_type": "images",
+        "captions": [
+            3,
+            5,
+            9,
+            3,
+            9,
+            6,
+            3,
+            5,
+            3,
+            8,
+            8,
+            3,
+            1,
+            3,
+            1,
+            9,
+            4,
+            8,
+            4,
+            4,
+            6,
+            5,
+            3,
+            8,
+            3,
+            6,
+            5,
+            4,
+            1,
+            3,
+            6,
+            4,
+            9,
+            6,
+            9,
+            3
+        ]
+    }
+}

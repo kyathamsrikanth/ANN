@@ -1,0 +1,115 @@
+{
+    "graph": {
+        "_type": "graph",
+        "format": "keras",
+        "nodes": [
+            {
+                "name": "flatten_11_input",
+                "id": "flatten_11_input",
+                "class_name": "InputLayer",
+                "output_shape": [
+                    null,
+                    28,
+                    28
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "flatten_11",
+                "id": "flatten_11",
+                "class_name": "Flatten",
+                "output_shape": [
+                    null,
+                    784
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "dense_21",
+                "id": "dense_21",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    75
+                ],
+                "num_parameters": 58875
+            },
+            {
+                "name": "dense_22",
+                "id": "dense_22",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    10
+                ],
+                "num_parameters": 760
+            }
+        ],
+        "edges": [
+            [
+                "flatten_11_input",
+                "flatten_11"
+            ],
+            [
+                "flatten_11",
+                "dense_21"
+            ],
+            [
+                "dense_21",
+                "dense_22"
+            ]
+        ]
+    },
+    "_timestamp": 1560533962.403861,
+    "loss": 9.99415910466512,
+    "val_acc": 0.3807,
+    "epoch": 3,
+    "_runtime": 23.934364795684814,
+    "val_loss": 9.975864129638673,
+    "acc": 0.37966666666666665,
+    "_step": 3,
+    "examples": {
+        "width": 28,
+        "height": 28,
+        "count": 36,
+        "_type": "images",
+        "captions": [
+            1,
+            1,
+            1,
+            5,
+            7,
+            3,
+            5,
+            5,
+            5,
+            7,
+            5,
+            7,
+            7,
+            3,
+            7,
+            7,
+            7,
+            5,
+            3,
+            5,
+            1,
+            7,
+            3,
+            5,
+            3,
+            7,
+            5,
+            3,
+            7,
+            5,
+            3,
+            7,
+            5,
+            3,
+            7,
+            5
+        ]
+    }
+}

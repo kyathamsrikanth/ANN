@@ -1,0 +1,101 @@
+{
+    "graph": {
+        "_type": "graph",
+        "format": "keras",
+        "nodes": [
+            {
+                "name": "flatten_1_input",
+                "id": "flatten_1_input",
+                "class_name": "InputLayer",
+                "output_shape": [
+                    null,
+                    28,
+                    28
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "flatten_1",
+                "id": "flatten_1",
+                "class_name": "Flatten",
+                "output_shape": [
+                    null,
+                    784
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "dense_1",
+                "id": "dense_1",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    10
+                ],
+                "num_parameters": 7850
+            }
+        ],
+        "edges": [
+            [
+                "flatten_1_input",
+                "flatten_1"
+            ],
+            [
+                "flatten_1",
+                "dense_1"
+            ]
+        ]
+    },
+    "val_acc": 0.7292,
+    "epoch": 9,
+    "_timestamp": 1560515239.692118,
+    "_runtime": 29.48583149909973,
+    "acc": 0.7266166666666667,
+    "loss": 4.381620126056671,
+    "examples": {
+        "width": 28,
+        "height": 28,
+        "count": 36,
+        "_type": "images",
+        "captions": [
+            5,
+            8,
+            1,
+            0,
+            0,
+            1,
+            6,
+            1,
+            3,
+            8,
+            4,
+            0,
+            1,
+            3,
+            3,
+            8,
+            4,
+            8,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5,
+            4,
+            2,
+            1,
+            3,
+            1,
+            3,
+            1,
+            4,
+            3,
+            1,
+            5,
+            3
+        ]
+    },
+    "_step": 9,
+    "val_loss": 4.341126494979858
+}

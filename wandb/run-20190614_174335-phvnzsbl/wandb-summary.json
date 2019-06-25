@@ -1,0 +1,63 @@
+{
+    "graph": {
+        "_type": "graph",
+        "format": "keras",
+        "nodes": [
+            {
+                "name": "flatten_14_input",
+                "id": "flatten_14_input",
+                "class_name": "InputLayer",
+                "output_shape": [
+                    null,
+                    28,
+                    28
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "flatten_14",
+                "id": "flatten_14",
+                "class_name": "Flatten",
+                "output_shape": [
+                    null,
+                    784
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "dense_27",
+                "id": "dense_27",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    600
+                ],
+                "num_parameters": 471000
+            },
+            {
+                "name": "dense_28",
+                "id": "dense_28",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    10
+                ],
+                "num_parameters": 6010
+            }
+        ],
+        "edges": [
+            [
+                "flatten_14_input",
+                "flatten_14"
+            ],
+            [
+                "flatten_14",
+                "dense_27"
+            ],
+            [
+                "dense_27",
+                "dense_28"
+            ]
+        ]
+    }
+}

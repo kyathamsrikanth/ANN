@@ -1,0 +1,23 @@
+{
+    "root": "/home/jovyan/ANN",
+    "git": {
+        "remote": "https://github.com/kyathamsrikanth/ANN.git",
+        "commit": "efe58ecb30b183e28c03a34bed22381eca5dc3dc"
+    },
+    "email": null,
+    "startedAt": "2019-06-14T15:01:34.689678",
+    "host": "jupyter-kyathamsrikanth",
+    "username": "jovyan",
+    "os": "Linux-4.14.119+-x86_64-with-debian-buster-sid",
+    "python": "3.7.3",
+    "cpu_count": 2,
+    "program": "<python with no main file>",
+    "args": [
+        "-f",
+        "/home/jovyan/.local/share/jupyter/runtime/kernel-4f3ae9a3-8b41-48fd-ade2-378fadb0fdd6.json"
+    ],
+    "state": "running",
+    "heartbeatAt": "2019-06-14T15:01:53.462201",
+    "jobType": null,
+    "mode": "run"
+}
